@@ -14,6 +14,7 @@
 		CD160FB7296072B4007A57CF /* firstiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FB6296072B4007A57CF /* firstiOSTests.swift */; };
 		CD160FC1296072B4007A57CF /* firstiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FC0296072B4007A57CF /* firstiOSUITests.swift */; };
 		CD160FC3296072B4007A57CF /* firstiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FC2296072B4007A57CF /* firstiOSUITestsLaunchTests.swift */; };
+		CD160FD0296075DE007A57CF /* MyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FCF296075DE007A57CF /* MyVStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CD160FBC296072B4007A57CF /* firstiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD160FC0296072B4007A57CF /* firstiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiOSUITests.swift; sourceTree = "<group>"; };
 		CD160FC2296072B4007A57CF /* firstiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD160FCF296075DE007A57CF /* MyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CD160FA7296072B3007A57CF /* ContentView.swift */,
 				CD160FA9296072B4007A57CF /* Assets.xcassets */,
 				CD160FAB296072B4007A57CF /* Preview Content */,
+				CD160FCF296075DE007A57CF /* MyVStack.swift */,
 			);
 			path = firstiOS;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				CD160FA8296072B3007A57CF /* ContentView.swift in Sources */,
 				CD160FA6296072B3007A57CF /* firstiOSApp.swift in Sources */,
+				CD160FD0296075DE007A57CF /* MyVStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
