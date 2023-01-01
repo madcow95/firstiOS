@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    MyVStackView()
+                    MyVStackView(isActivated: $isActivated)
                 }
                 .padding( isActivated ? 50 : 10 )
                 .background( isActivated ? Color.red : Color.blue )
@@ -31,7 +31,7 @@ struct ContentView: View {
                     } // withAnimation end
                 } // onTapGesture end
                 
-                NavigationLink(destination: MyTextView()) {
+                NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
                     Text("네비게이션")
                 }
                 .padding(.top, 50)
