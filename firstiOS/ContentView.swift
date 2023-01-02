@@ -36,9 +36,9 @@ struct ContentView: View {
                         Text("네비게이션")
                             .padding(.vertical,10)
                     }
-//                    NavigationLink(destination: MyTextTestView()) {
-//                        Text("Text 꾸미기 페이지")
-//                    }
+                    NavigationLink(destination: MyTextTestView()) {
+                        Text("Text 꾸미기 페이지")
+                    }
                 }
                 
                 HStack {
