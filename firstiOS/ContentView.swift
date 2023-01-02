@@ -31,8 +31,45 @@ struct ContentView: View {
                     } // withAnimation end
                 } // onTapGesture end
                 
-                NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
-                    Text("네비게이션")
+                VStack {
+                    NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
+                        Text("네비게이션")
+                            .padding(.vertical,10)
+                    }
+//                    NavigationLink(destination: MyTextTestView()) {
+//                        Text("Text 꾸미기 페이지")
+//                    }
+                }
+                
+                HStack {
+                    NavigationLink(destination:MyWebView(urlToLoad: "https://www.naver.com")
+                                    .edgesIgnoringSafeArea(.all)) {
+                        Text("네이버")
+                            .fontWeight(.bold)
+                            .padding(20)
+                            .background(Color.green)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(20)
+                    }
+                    NavigationLink(destination:MyWebView(urlToLoad: "https://www.google.com")
+                                    .edgesIgnoringSafeArea(.all)) {
+                        Text("구글")
+                            .fontWeight(.bold)
+                            .padding(20)
+                            .background(Color.blue)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(20)
+                    }
+                    NavigationLink(destination:
+                                    MyWebView(urlToLoad: "https://www.daum.net")
+                                    .edgesIgnoringSafeArea(.all)) {
+                        Text("다음")
+                            .fontWeight(.bold)
+                            .padding(20)
+                            .background(Color.orange)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(20)
+                    }
                 }
                 .padding(.top, 50)
             }

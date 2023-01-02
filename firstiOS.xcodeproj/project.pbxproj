@@ -16,6 +16,8 @@
 		CD160FC3296072B4007A57CF /* firstiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FC2296072B4007A57CF /* firstiOSUITestsLaunchTests.swift */; };
 		CD160FD0296075DE007A57CF /* MyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD160FCF296075DE007A57CF /* MyVStack.swift */; };
 		CD9F66C12961775E0012514D /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F66C02961775E0012514D /* MyTextView.swift */; };
+		CD9F66FB29630A170012514D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F66FA29630A170012514D /* WebView.swift */; };
+		CD9F66FD29630AD90012514D /* SwiftUI_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F66FC29630AD90012514D /* SwiftUI_Text.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		CD160FC2296072B4007A57CF /* firstiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD160FCF296075DE007A57CF /* MyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStack.swift; sourceTree = "<group>"; };
 		CD9F66C02961775E0012514D /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		CD9F66FA29630A170012514D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CD9F66FC29630AD90012514D /* SwiftUI_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Text.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				CD160FAB296072B4007A57CF /* Preview Content */,
 				CD160FCF296075DE007A57CF /* MyVStack.swift */,
 				CD9F66C02961775E0012514D /* MyTextView.swift */,
+				CD9F66FA29630A170012514D /* WebView.swift */,
+				CD9F66FC29630AD90012514D /* SwiftUI_Text.swift */,
 			);
 			path = firstiOS;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD160FA8296072B3007A57CF /* ContentView.swift in Sources */,
+				CD9F66FB29630A170012514D /* WebView.swift in Sources */,
+				CD9F66FD29630AD90012514D /* SwiftUI_Text.swift in Sources */,
 				CD9F66C12961775E0012514D /* MyTextView.swift in Sources */,
 				CD160FA6296072B3007A57CF /* firstiOSApp.swift in Sources */,
 				CD160FD0296075DE007A57CF /* MyVStack.swift in Sources */,
