@@ -18,6 +18,29 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                CircleImageView()
+                HStack {
+                    NavigationLink(destination: MyWebView(urlToLoad: "https://www.youtube.com")
+                                        .edgesIgnoringSafeArea(.all)) {
+                        Text("유튜브 보러가자")
+                            .fontWeight(.bold)
+                            .padding(10)
+                            .foregroundColor(.white)
+                            .background(Color.red)
+                            .cornerRadius(20)
+                    }
+                    NavigationLink(destination: MyWebView(urlToLoad: "https://open.kakao.com/o/gxOOKJec")
+                                        .edgesIgnoringSafeArea(.all)) {
+                        Text("오픈 채팅방")
+                            .fontWeight(.bold)
+                            .padding(10)
+                            .foregroundColor(.white)
+                            .background(Color.orange)
+                            .cornerRadius(20)
+                    }
+                }
+                .padding(10)
+                
                 HStack {
                     MyVStackView(isActivated: $isActivated)
                 }
@@ -71,7 +94,7 @@ struct ContentView: View {
                             .cornerRadius(20)
                     }
                 }
-                .padding(.top, 50)
+                .padding(.top, 20)
             }
         } // NavigationView end
     }
