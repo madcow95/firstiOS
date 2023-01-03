@@ -19,6 +19,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 CircleImageView()
+                    .padding(.top, 10)
                 HStack {
                     NavigationLink(destination: MyWebView(urlToLoad: "https://www.youtube.com")
                                         .edgesIgnoringSafeArea(.all)) {
@@ -61,6 +62,9 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: MyTextTestView()) {
                         Text("Text 꾸미기 페이지")
+                    }
+                    NavigationLink(destination: NextPageView()) {
+                        Text("다음 페이지로")
                     }
                 }
                 
